@@ -1,0 +1,11 @@
+// just Pi value output
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	fmt.Println("Pi", math.Pi)
+}
