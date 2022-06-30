@@ -1,4 +1,4 @@
-// simple multiplication function
+// simple multiplication function with output of variables types
 package main
 
 import (
@@ -12,5 +12,7 @@ func mp(x, y int) int {
 func main() {
 	a := 42
 	b := 13
-	fmt.Printf("Multiplying %d by %d is %d n", a, b, mp(a, b))
+	fmt.Printf("Multiplying %d by %d is %d n\n", a, b, mp(a, b))
+	fmt.Printf("The type of a is: %T\n", a)
+	fmt.Printf("The type of b is: %T\n", b)
 }
